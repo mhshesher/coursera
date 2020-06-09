@@ -27,7 +27,7 @@ Which country has the biggest difference between their summer gold medal counts 
 Only include countries that have won at least 1 gold in both summer and winter.<br><br>
 <i>This function should return a single string value.</i>
 
-### Question 4¶
+### Question 4
 Write a function that creates a Series called "Points" which is a weighted value where each gold medal (Gold.2) counts for 3 points, silver medals (Silver.2) for 2 points, and bronze medals (Bronze.2) for 1 point. The function should return only the column (a Series object) which you created, with the country names as indices.<br><br>
 <i>This function should return a Series named Points of length 146</i>
 
