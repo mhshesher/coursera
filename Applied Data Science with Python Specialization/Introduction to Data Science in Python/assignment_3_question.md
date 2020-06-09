@@ -2,7 +2,7 @@
 This assignment requires more individual learning then the last one did - you are encouraged to check out the pandas documentation to find functions or methods you might not have used yet, or ask questions on Stack Overflow and tag them as pandas and python related. And of course, the discussion forums are open for interaction with your peers and the course staff.<br><br><br>
 
 ### Question 1 (20%)
-Load the energy data from the file Energy Indicators.xls, which is a list of indicators of energy supply and renewable electricity production from the United Nations for the year 2013, and should be put into a DataFrame with the variable name of <b>energy</b>.<br><br>
+Load the energy data from the file <b>Energy Indicators.xls</b>, which is a list of indicators of energy supply and renewable electricity production from the United Nations for the year 2013, and should be put into a DataFrame with the variable name of <b>energy</b>.<br><br>
 
 Keep in mind that this is an Excel file, and not a comma separated values file. Also, make sure to exclude the footer and header information from the datafile. The first two columns are unneccessary, so you should get rid of them, and you should change the column labels so that the columns are:<br><br>
 
@@ -23,7 +23,7 @@ e.g.<br><br>
 'Bolivia (Plurinational State of)' should be 'Bolivia',<br>
 'Switzerland17' should be 'Switzerland'.<br><br><br>
 
-Next, load the GDP data from the file world_bank.csv, which is a csv containing countries' GDP from 1960 to 2015 from World Bank. Call this DataFrame <b>GDP</b>.<br><br>
+Next, load the GDP data from the file <b>world_bank.csv</b>, which is a csv containing countries' GDP from 1960 to 2015 from World Bank. Call this DataFrame <b>GDP</b>.<br><br>
 
 Make sure to skip the header, and rename the following list of countries:<br><br>
 
@@ -32,7 +32,7 @@ Make sure to skip the header, and rename the following list of countries:<br><br
 "Hong Kong SAR, China": "Hong Kong"<br><br><br>
 
 
-Finally, load the Sciamgo Journal and Country Rank data for Energy Engineering and Power Technology from the file scimagojr-3.xlsx, which ranks countries based on their journal contributions in the aforementioned area. Call this DataFrame <b>ScimEn</b>.<br><br>
+Finally, load the Sciamgo Journal and Country Rank data for Energy Engineering and Power Technology from the file <b>scimagojr-3.xlsx</b>, which ranks countries based on their journal contributions in the aforementioned area. Call this DataFrame <b>ScimEn</b>.<br><br>
 
 Join the three datasets: GDP, Energy, and ScimEn into a new dataset (using the intersection of country names). Use only the last 10 years (2006-2015) of GDP data and only the top 15 countries by Scimagojr 'Rank' (Rank 1 through 15).<br><br>
 
